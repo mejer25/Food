@@ -1,0 +1,101 @@
+html{
+
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: left;
+  color: solid white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  right 0%;
+  transform: translate(-20%, -50%);
+   background-color: #E51414;
+   color: white;
+   font-family: Rockwell;
+}
+
+/* Container holding the image and the text */
+.c1 {
+  position: relative;
+  text-align: left;
+  color: solid white;
+}
+
+/* Centered text */
+.left{
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  right 0%;
+  transform: translate(-20%, -50%);
+   background-color: #29b6f6;
+   color: white;
+   font-family: Rockwell;
+}
+ .clspi
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    .fish
+    {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      bottom: 10px;
+      opacity: 0.9;
+      height: 450px;
+    }
+    /* Centered text */
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+   background-color: rgb(255,255,255,0.6);
+   color: black;
+   font-family: Arial Rounded MT;
+ }
+ .fishda{
+  
+      position: absolute;
+       top: 8px;
+       left: 16px;
+      bottom: 40px;
+      opacity: 0.9;
+      height: 250px;
+      width: 300;
+      
+    
+ }
+.fishpo{
+  
+      position: absolute;
+      top: 8px;
+      right: 16px;
+      bottom: 10px;
+      opacity: 0.9;
+      height: 300px;
+      width: 300;
+      font-family: Arial Rounded MT;
+    
+}
+.centered2 {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  right 0%;
+  transform: translate(-20%, -50%);
+   background-color: #29b6f6;
+   color: white;
+   font-family: Rockwell;
+}
+ }

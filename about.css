@@ -1,0 +1,125 @@
+html{
+
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: left;
+  color: solid white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+   background-color: rgb(0, 0, 0, 0.5);
+   color: white;
+   font-family: Arial Rounded MT;
+}
+.image {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  
+}
+.image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 0.8s;
+  opacity: 0;
+  background-size: 100% 100%;
+}
+.image:hover:before {
+  opacity: 0.8;
+}
+ .clspi
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    .fish
+    {
+      position: absolute;
+      top: 250px;
+      left: 100px;
+      bottom: 10px;
+      opacity: 0.9;
+      height: 500px;
+    }
+    /* Centered text */
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+   background-color: rgb(255,255,255,0.6);
+   color: black;
+   font-family: Arial Rounded MT;
+ }
+ .fishda{
+  
+      position: absolute;
+      top: 90px;
+      left: 20px;
+      bottom: 10px;
+      opacity: 0.9;
+      height: 300px;
+      width: 300;
+      font-family: Arial Rounded MT;
+    
+ }
+.fishpo{
+  
+      position: absolute;
+      top: 400px;
+      left: 20px;
+      bottom: 10px;
+      opacity: 0.9;
+      height: 300px;
+      width: 300;
+      font-family: Arial Rounded MT;
+    
+}
+.centered2 {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+   background-color: rgb(0, 0, 0, 0.5);
+   color: white;
+   font-family: Arial Rounded MT;
+ }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  height: 50px;
+}
+
+.column1 {
+  float: left;
+  width: 30%;
+  padding: 50px;
+}
+p{
+  font-family: Arial Rounded MT;
+  text-align: center;
+
+}
